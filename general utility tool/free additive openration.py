@@ -43,12 +43,12 @@ part2:
 ''')
 s = input("Select a modle(part1 or 2): ")
 while True:
-    if s == "part1":
+    if s == "part1" or "1":
         a = int(input("Enter a number: "))
         b = int(input("Enter another number: "))
         print(a + b)
         exit_program(1)
-    elif s == "part2":
+    elif s == "part2" or "2":
         a = int(input("Enter a number: "))
         b = int(input("Enter another number: "))
         add_add(a, b)
